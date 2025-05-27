@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #847bd6;
+}
+
+.wrapper {
+    background: rgba(132, 88, 227, 0.784);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(19, 19, 19, 0.2);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(90, 97, 97);
+}
+
+button {
+    cursor: pointer;
+}
